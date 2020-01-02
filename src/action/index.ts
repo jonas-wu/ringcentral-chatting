@@ -1,4 +1,4 @@
-import { MsgItem } from "../common/common"
+import { MsgItem } from "../common/types"
 
 export const actionTypes = {
   SET_MESSAGES: 'SET_MESSAGES',

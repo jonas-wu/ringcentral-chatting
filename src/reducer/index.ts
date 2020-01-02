@@ -1,12 +1,12 @@
-import { AppState, MsgType } from "../common/common";
+import { AppState, MsgType } from "../common/types";
 import { actionTypes } from "../action";
-import { newTestMessage } from "../utils/utils";
+import { newMessage } from "../utils/utils";
 
 let initState: AppState = {
   messages: [
-    newTestMessage(MsgType.Text),
-    newTestMessage(MsgType.System),
-    newTestMessage(MsgType.Picture),
+    newMessage(MsgType.Text),
+    newMessage(MsgType.System),
+    newMessage(MsgType.Picture),
   ]
 };
 

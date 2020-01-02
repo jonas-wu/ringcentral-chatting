@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { MenuItem } from '../../common/common'
+import { MenuItem } from '../../common/types'
 import './style.css'
 
 interface Props {
