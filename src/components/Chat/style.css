@@ -1,0 +1,19 @@
+.message-container {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 3px;
+  overflow: auto;
+  flex-direction: column;
+}
+
+.message-item {
+  margin: 5px;
+}
+
+.message-img {
+  margin: 5px;
+  max-width: 250px;
+  max-height: 250px;
+}
