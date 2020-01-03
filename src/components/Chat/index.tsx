@@ -209,7 +209,6 @@ class Chat extends Component<Props, State> {
           <div
             contentEditable={true}
             className="message-input"
-            placeholder="请输入内容"
             ref={this.inputRef}
             onPaste={this.handlePaste}
             onKeyDown={this.handleInputKey}
